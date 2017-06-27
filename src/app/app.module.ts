@@ -11,6 +11,8 @@ import { CallToActionComponent } from './ui-components/call-to-action/call-to-ac
 import { AboutUsComponent } from './ui-components/about-us/about-us.component';
 import { SectionServicesComponent } from './ui-components/section-services/section-services.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,7 @@ import { SectionServicesComponent } from './ui-components/section-services/secti
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
