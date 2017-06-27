@@ -9,7 +9,8 @@ import { FooterComponent } from './ui-components/footer/footer.component';
 import { SectionHeroComponent } from './ui-components/section-hero/section-hero.component';
 import { CallToActionComponent } from './ui-components/call-to-action/call-to-action.component';
 import { AboutUsComponent } from './ui-components/about-us/about-us.component';
-import { SectionServicesComponent } from './ui-components/section-services/section-services.component';
+import { SectionWeAreAwesomeComponent } from './ui-components/section-we-are-awesome/section-we-are-awesome.component';
+import { SectionWhatWeDoComponent } from './ui-components/section-what-we-do/section-what-we-do.component';
 
 
 
@@ -21,7 +22,8 @@ import { SectionServicesComponent } from './ui-components/section-services/secti
     SectionHeroComponent,
     CallToActionComponent,
     AboutUsComponent,
-    SectionServicesComponent
+    SectionWeAreAwesomeComponent,
+    SectionWhatWeDoComponent
   ],
   imports: [
     BrowserModule,
