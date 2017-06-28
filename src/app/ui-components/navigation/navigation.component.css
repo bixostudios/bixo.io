@@ -19,14 +19,16 @@
 
 }
 
-.bixo-logo {
-  height: 75px;
-  width: 75px;
-}
+
 
 */
 
 /* Nav Styling */
+
+.bixo-logo {
+  height: 75px;
+  width: 75px;
+}
 
 .nav-wrapper {
   height: 100px;
