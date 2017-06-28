@@ -1,8 +1,8 @@
-/* NAVIGATION  #455D7A */
+/* NAVIGATION  #455D7A
 
 .top-nav {
   background-color: #455D7A;
-  height: 100px;
+  height: 150px;
 }
 
 #nav-mobile li:hover {
@@ -12,10 +12,44 @@
 
 #nav-mobile {
   padding-right: 318px;
+  padding-top: 25px;
+}
+
+#nav-mobile {
+
 }
 
 .bixo-logo {
-  height: 50px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
 }
 
+*/
+
+/* Nav Styling */
+
+.nav-wrapper {
+  height: 100px;
+  padding-right: 350px;
+}
+
+
+nav ul li:hover {
+   background-color: #F95959;
+}
+
+
+nav {
+    height: 100px;
+    line-height: 100px;
+    background-color: #455D7A;
+}
+
+
+nav .brand-logo {
+    font-size: 2.5rem;
+}
+
+nav ul li.active {
+  background-color: #F95959;
+}
