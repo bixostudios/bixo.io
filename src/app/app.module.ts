@@ -11,6 +11,7 @@ import { CallToActionComponent } from './ui-components/call-to-action/call-to-ac
 import { AboutUsComponent } from './ui-components/about-us/about-us.component';
 import { SectionWeAreAwesomeComponent } from './ui-components/section-we-are-awesome/section-we-are-awesome.component';
 import { SectionWhatWeDoComponent } from './ui-components/section-what-we-do/section-what-we-do.component';
+import { CallToActionHireComponent } from './ui-components/call-to-action-hire/call-to-action-hire.component';
 
 
 
@@ -23,7 +24,8 @@ import { SectionWhatWeDoComponent } from './ui-components/section-what-we-do/sec
     CallToActionComponent,
     AboutUsComponent,
     SectionWeAreAwesomeComponent,
-    SectionWhatWeDoComponent
+    SectionWhatWeDoComponent,
+    CallToActionHireComponent
   ],
   imports: [
     BrowserModule,
