@@ -1,13 +1,18 @@
-/* NAVIGATION  */
+/* NAVIGATION  #455D7A */
 
 .top-nav {
   background-color: #455D7A;
+  height: 100px;
 }
 
 #nav-mobile li:hover {
   background-color: #F95959;
+  height: 100px;
 }
 
+#nav-mobile {
+  padding-right: 318px;
+}
 
 .bixo-logo {
   height: 50px;
