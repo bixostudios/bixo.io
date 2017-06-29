@@ -1,4 +1,14 @@
-.bixo-is-awesome h1 {
+.bixo-heading {
   font-weight: 700;
   color: #F95959;
+  
+}
+
+.c-t-a-contact {
+  background-color: #F95959;
+  height: 150px;
+}
+
+.bixo-is-awesome {
+  height: 100vh;
 }
