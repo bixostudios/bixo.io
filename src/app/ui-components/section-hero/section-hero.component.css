@@ -1,12 +1,16 @@
 .bixo-hero-our-way {
     background-color: #455D7A;
     color: #fff;
+    height: 100vh;
 }
 
 .bixo-hero-message {
     font-weight: 800;
 }
 
+.text-animate:hover {
+    background-color: #F95959;
+}
 
 /* BIXO Fancy Styling */
 
@@ -25,9 +29,9 @@
 
 .bixo-studios-text {
     color: #fff;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: .5em;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .bixo-fancy-text {
