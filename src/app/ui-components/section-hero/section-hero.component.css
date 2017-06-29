@@ -5,7 +5,7 @@
 }
 
 .bixo-hero-message {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .text-animate:hover {
@@ -16,6 +16,11 @@
   height: 200px;
 }
 
+.material-icons {
+  font-weight: 400;
+  font-size: 1.0em;
+  color: #fff;
+}
 /* BIXO Fancy Styling */
 
 .bixo-studios-text {
