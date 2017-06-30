@@ -30,6 +30,10 @@
   width: 75px;
 }
 
+.brand-logo {
+  padding-top: 15px;
+}
+
 .nav-wrapper {
   height: 100px;
 }

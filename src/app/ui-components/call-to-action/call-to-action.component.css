@@ -1,8 +1,15 @@
 .c-t-a {
-  height: 100px;
   background-color: #F95959;
 }
 
+.material-icons,
+.contact-text {
+  color: #F95959;
+}
+
+.contact-btn {
+  margin-top: 6px;
+}
 
 
 
