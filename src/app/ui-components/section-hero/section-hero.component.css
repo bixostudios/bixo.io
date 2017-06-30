@@ -6,6 +6,7 @@
 
 .bixo-hero-message {
     font-weight: 700;
+    padding-top: 50px;
 }
 
 .text-animate:hover {
@@ -13,7 +14,7 @@
 }
 
 .top-hero-spacer {
-  height: 200px;
+  height: 100px;
 }
 
 .material-icons {
