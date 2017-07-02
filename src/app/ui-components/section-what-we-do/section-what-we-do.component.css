@@ -6,9 +6,65 @@
 .service-box {
     background-color: #455D7A;
     color: #fff;
-    
+
 }
 
 .card-title {
   font-size: 25px;
+  font-weight: 400;
+  color: #455D7A;
 }
+
+
+/* Rocket SVG */
+
+#BixoLaunch {
+  height: 250px;
+  width: 350px;
+}
+
+#BoosterOne line {
+  fill: none;
+  stroke: #F95959;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation: 1.5s booster-animate infinite;
+}
+
+#BoosterTwo line {
+  fill: none;
+  stroke: #F95959;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation: 2.5s booster-animate infinite;
+}
+
+#BoosterThree line {
+  fill: none;
+  stroke: #F95959;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation: 2.0s booster-animate infinite;
+}
+
+@keyframes booster-animate {
+  0% {
+    stroke-dashoffset: 10;
+  }
+  25% {
+    stroke-dashoffset: 7.5;
+  }
+
+  50% {
+    stroke-dashoffset: 5;
+  }
+
+  75% {
+    stroke-dashoffset: 2.5;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
