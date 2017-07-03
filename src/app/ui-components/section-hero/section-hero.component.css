@@ -5,9 +5,16 @@
 }
 
 .bixo-hero-message {
-    position: relative;
+  position: relative;
+}
+.craft-message {
     font-weight: 700;
-    top: 11.0rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
 }
 
 .text-animate:hover {
@@ -15,13 +22,14 @@
 }
 
 .top-hero-spacer {
-  height: 100px;
+    height: 150px;
 }
 
 .learn-more {
-  position: relative;
-  top: 5.0rem;
+    position: relative;
+    top: 4.0rem;
 }
+
 
 /* BIXO Fancy Styling */
 
@@ -44,6 +52,7 @@
     font-size: .5em;
     font-weight: 700;
 }
+
 
 .bixo-fancy-text {
     display: inline-block;
@@ -124,4 +133,3 @@
         font-size: 8em;
     }
 }
-
