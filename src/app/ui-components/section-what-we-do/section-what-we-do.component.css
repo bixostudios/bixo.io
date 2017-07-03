@@ -25,8 +25,10 @@
 
 /* Rocket SVG */
 
-#BixoLaunch {
-    width: 300px;
+#BixoLaunch,
+#bixoBranding,
+#designDev {
+    width: 275px;
     height: auto;
 }
 
@@ -75,11 +77,6 @@
 
 /* Design + Dev SVG */
 
-#designDev {
-    width: 300px;
-    height: auto;
-}
-
 #EyePiece {
     fill: #fff;
     animation: 5s eye-animation infinite;
@@ -96,11 +93,6 @@
 
 
 /* Branding */
-
-#bixoBranding {
-    width: 300px;
-    height: auto;
-}
 
 #EyeOne {
     fill: #fff;
