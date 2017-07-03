@@ -26,8 +26,8 @@
 /* Rocket SVG */
 
 #BixoLaunch {
-  height: 250px;
-  width: 350px;
+  width: 300px;
+  height: auto;
 }
 
 #BoosterOne line {
@@ -75,6 +75,58 @@
   }
 }
 
+
+/* Design + Dev SVG */
+
+#designDev {
+  width: 300px;
+  height: auto;
+}
+#EyePiece {
+  fill: #fff;
+  animation: 5s eye-animation infinite;
+}
+
+@keyframes eye-animation {
+  0% {
+    fill: #fff;
+  }
+  100% {
+    fill: #F95959;
+  }
+}
+
+
+/* Branding */
+
+#bixoBranding {
+  width: 300px;
+  height: auto;
+}
+
+#EyeOne {
+  fill: #fff;
+  animation: 1s eye-animate infinite;
+}
+
+#EyeTwo {
+  fill: #fff;
+  animation: 3s eye-animate infinite;
+}
+
+@keyframes eye-animate {
+  0% {
+    fill: #fff;
+  }
+  100% {
+    fill: #00c853;
+  }
+}
+
+
+
+
+
 /* iPhone 6 landscape */
 @media only screen and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -82,8 +134,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
 {
   #BixoLaunch {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: auto;
     top: 0px;
   }
 }
@@ -95,9 +147,11 @@
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2)
 {
-   #BixoLaunch  {
-    width: 300px;
-    height: 200px;
+   #BixoLaunch,
+   #designDev,
+   #bixoBranding {
+    width: 200px;
+    height: auto;
     top: 0px;
   }
 }
@@ -109,9 +163,11 @@
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 3)
 {
-   #BixoLaunch  {
-    width: 300px;
-    height: 200px;
+  #BixoLaunch,
+   #designDev,
+   #bixoBranding  {
+    width: 200px;
+    height: auto;
   }
 }
 
@@ -122,8 +178,10 @@
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 3)
 {
-   #BixoLaunch  {
-    width: 300px;
-    height: 200px;
+   #BixoLaunch,
+   #designDev,
+   #bixoBrandingh  {
+    width: 200px;
+    height: auto;
   }
 }
