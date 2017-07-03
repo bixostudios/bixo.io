@@ -5,8 +5,9 @@
 }
 
 .bixo-hero-message {
+    position: relative;
     font-weight: 700;
-    padding-top: 50px;
+    top: 11.0rem;
 }
 
 .text-animate:hover {
@@ -17,6 +18,10 @@
   height: 100px;
 }
 
+.learn-more {
+  position: relative;
+  top: 5.0rem;
+}
 
 /* BIXO Fancy Styling */
 
