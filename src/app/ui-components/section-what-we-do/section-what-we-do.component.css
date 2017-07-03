@@ -10,11 +10,18 @@
 }
 
 .card-title {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 400;
   color: #455D7A;
 }
 
+.card-content p {
+  color:  #455D7A;
+}
+
+.card {
+  border-radius: 3px;
+}
 
 /* Rocket SVG */
 
@@ -68,3 +75,55 @@
   }
 }
 
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+  #BixoLaunch {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+   #BixoLaunch  {
+    width: 300px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
+   #BixoLaunch  {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
+   #BixoLaunch  {
+    width: 300px;
+    height: 200px;
+  }
+}
