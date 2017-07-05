@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './ui-components/navigation/navigation.component';
@@ -16,9 +16,9 @@ import { CallToActionHireComponent } from './ui-components/call-to-action-hire/c
 import { WorksComponent } from './ui-components/works/works.component';
 
 const appRoutes: Routes = [
-  { path: '', component: AppComponent },
   { path: 'about', component: AboutUsComponent },
-  { path: 'about', component:  WorksComponent},
+  { path: 'works', component:  WorksComponent },
+  { path: 'footer', component: FooterComponent }
 ];
 
 @NgModule({
@@ -38,6 +38,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
