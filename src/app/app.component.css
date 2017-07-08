@@ -1,3 +1,116 @@
+
+/*///////////////////
+//  GLOBAL STYLING //
+//////////////////*/
+
+body {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin', sans-serif;
+}
+
+p,
+ul,
+li,
+a {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bixo-heading {
+    font-weight: 700;
+    color: #F95959;
+}
+
+
+
+/*//////////////////
+//  NAV STYLING  //
+/////////////////*/
+
+.bixo-logo {
+  height: 75px;
+  width: 75px;
+}
+
+.brand-logo {
+  padding-top: 15px;
+}
+
+.nav-wrapper {
+  height: 100px;
+}
+
+
+nav ul li:hover {
+   background-color: #F95959;
+}
+
+
+nav {
+    height: 100px;
+    line-height: 100px;
+    background-color: #455D7A;
+}
+
+
+nav .brand-logo {
+    font-size: 2.5rem;
+}
+
+nav ul li.active {
+  background-color: #F95959;
+}
+
+
+/* //////////////////
+// Footer Styling ///
+///////////////////*/
+
+footer {
+    height: 200px;
+    background-color: #455D7A;
+}
+
+.footer-cta {
+    border: solid 1px #607d8b;
+    color: #fff;
+    background-color: #F95959;
+    font-size: 2.0em;
+    font-weight: 700;
+    width: 205px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.footer-left {
+    height: 100px;
+    color: #fff;
+}
+
+.footer-center {
+    height: 100px;
+}
+
+.footer-right {
+    height: 100px;
+}
+
+.footer-right ul {
+    list-style: none;
+}
+
+.footer-right li {
+    display: inline;
+}
+
 /*/////////////////////
 / CTA Button Footer //
 ////////////////////*/
@@ -52,3 +165,88 @@
 	5% {-webkit-transform: rotate(0deg);}
 	100% {-webkit-transform: rotate(0deg);}
 }
+
+
+/*////////////////
+/ Media Queries /
+/////////////////
+
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .bixo-heading {
+        font-size: 3.0rem;
+    }
+    .who-we-are-message {
+        font-size: 1.5rem;
+    }
+    .learn-more,
+    .bixo-studios-text,
+    .bixo-fancy-text {
+        display: none;
+    }
+}
+
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .bixo-heading {
+        font-size: 3.0rem;
+    }
+    .who-we-are-message {
+        font-size: 1.5rem;
+    }
+    .learn-more,
+    .bixo-studios-text,
+    .bixo-fancy-text {
+        display: none;
+    }
+}
+
+
+/* iPhone 6 Plus landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .bixo-heading {
+        font-size: 3.0rem;
+    }
+    .who-we-are-message {
+        font-size: 1.0rem;
+    }
+    .learn-more,
+    .bixo-studios-text,
+    .bixo-fancy-text {
+        display: none;
+    }
+}
+
+
+/* iPhone 6 Plus portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .bixo-heading {
+        font-size: 3.0rem;
+    }
+    .who-we-are-message {
+        font-size: 1.0rem;
+    }
+    .learn-more,
+    .bixo-fancy-text {
+        display: none;
+    }
+}
+
+
+/* iPhone 6 and 6 Plus */
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {}
+
+
+/* Apple Watch */
+
+@media (max-device-width: 42mm) and (min-device-width: 38mm) {}
+
