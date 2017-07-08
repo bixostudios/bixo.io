@@ -1,0 +1,18 @@
+#designDev {
+    width: 275px;
+    height: auto;
+}
+
+#EyePiece {
+    fill: #fff;
+    animation: 5s eye-animation infinite;
+}
+
+@keyframes eye-animation {
+    0% {
+        fill: #fff;
+    }
+    100% {
+        fill: #F95959;
+    }
+}

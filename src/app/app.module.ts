@@ -5,34 +5,30 @@ import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './ui-components/navigation/navigation.component';
-import { FooterComponent } from './ui-components/footer/footer.component';
-import { SectionHeroComponent } from './ui-components/section-hero/section-hero.component';
-import { CallToActionComponent } from './ui-components/call-to-action/call-to-action.component';
-import { AboutUsComponent } from './ui-components/about-us/about-us.component';
-import { SectionWeAreAwesomeComponent } from './ui-components/section-we-are-awesome/section-we-are-awesome.component';
-import { SectionWhatWeDoComponent } from './ui-components/section-what-we-do/section-what-we-do.component';
-import { CallToActionHireComponent } from './ui-components/call-to-action-hire/call-to-action-hire.component';
-import { WorksComponent } from './ui-components/works/works.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SvgBixolabComponent } from './components/home/svg-bixolab/svg-bixolab.component';
+import { SvgBixolaunchComponent } from './components/home/svg-bixolaunch/svg-bixolaunch.component';
+import { SvgBixodesignComponent } from './components/home/svg-bixodesign/svg-bixodesign.component';
+import { SvgBixobrandingComponent } from './components/home/svg-bixobranding/svg-bixobranding.component';
 
 const appRoutes: Routes = [
-  { path: 'about', component: AboutUsComponent },
-  { path: 'works', component:  WorksComponent },
-  { path: 'footer', component: FooterComponent }
+  { path: '', component: HomeComponent},
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component:  ContactComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
-    FooterComponent,
-    SectionHeroComponent,
-    CallToActionComponent,
-    AboutUsComponent,
-    SectionWeAreAwesomeComponent,
-    SectionWhatWeDoComponent,
-    CallToActionHireComponent,
-    WorksComponent
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    SvgBixolabComponent,
+    SvgBixolaunchComponent,
+    SvgBixodesignComponent,
+    SvgBixobrandingComponent
   ],
   imports: [
     BrowserModule,

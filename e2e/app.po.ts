@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class BixoWebPage {
+export class Ng4BixoIoPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,0 +1,220 @@
+/*//////////////////
+//  HERO STYLING //
+/////////////////*/
+
+.bixo-hero-our-way {
+    background-color: #455D7A;
+    color: #fff;
+    height: 100vh;
+}
+
+.bixo-hero-message {
+  position: relative;
+}
+
+.text-animate:hover {
+    background-color: #F95959;
+}
+
+
+
+.learn-more {
+    position: relative;
+    top: 2.0rem;
+}
+
+
+.bixo-studios-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #455D7A;
+}
+
+.bixo-studios-text {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .5em;
+    font-weight: 700;
+}
+
+
+.bixo-fancy-text {
+    display: inline-block;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 500;
+    perspective: 500;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bixo-fancy-text::before,
+.bixo-fancy-text::after {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+    content: attr(data-text);
+}
+
+.bixo-fancy-text::before {
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
+    transform: scale(1.1, 1) skew(0deg, 20deg);
+}
+
+.bixo-fancy-text::after {
+    z-index: 2;
+    color: #455D7A;
+    text-shadow: -1px 0 1px #455D7A, 1px 0 1px rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(-40deg);
+    transform: rotateY(-40deg);
+}
+
+.bixo-fancy-text:hover::before {
+    -webkit-transform: scale(1.1, 1) skew(0deg, 5deg);
+    transform: scale(1.1, 1) skew(0deg, 5deg);
+}
+
+.bixo-fancy-text:hover::after {
+    -webkit-transform: rotateY(-10deg);
+    transform: rotateY(-10deg);
+}
+
+.bixo-fancy-text+span {
+    margin-left: 0.3em;
+}
+
+/*////////////////////
+// END HERO STYLING //
+////////////////////*/
+
+/*//////////////////////
+// WHAT WE DO STYLING //
+//////////////////////*/
+
+.bixo-what-message {
+    font-weight: 700;
+    color: #F95959;
+}
+
+.service-box {
+    background-color: #455D7A;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 35px;
+    font-weight: 400;
+    color: #455D7A;
+}
+
+.card-content p {
+    color: #455D7A;
+}
+
+.card {
+    border-radius: 3px;
+}
+
+
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #BixoLaunch {
+        width: 200px;
+        height: auto;
+        top: 0px;
+    }
+}
+
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    #BixoLaunch,
+    #designDev,
+    #bixoBranding {
+        width: 200px;
+        height: auto;
+        top: 0px;
+    }
+}
+
+
+/* iPhone 6 Plus landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    #BixoLaunch,
+    #designDev,
+    #bixoBranding {
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+/* iPhone 6 Plus portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    #BixoLaunch,
+    #designDev,
+    #bixoBrandingh {
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+/*////////////////////
+// END  WHAT WE DO  //
+////////////////////*/
+
+
+
+
+
+/*////////////////////
+// MEDIA QUERIES //
+////////////////////*/
+
+@media (min-width: 20em) {
+    .bixo-studios-text {
+        font-size: 2em;
+    }
+    .bixo-fancy-text::before,
+    .bixo-fancy-text::after {
+        display: block;
+    }
+}
+
+@media (min-width: 30em) {
+    .bixo-studios-text {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 40em) {
+    .bixo-studios-text {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 60em) {
+    .bixo-studios-text {
+        font-size: 8em;
+    }
+}

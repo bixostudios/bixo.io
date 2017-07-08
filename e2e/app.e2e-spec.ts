@@ -1,10 +1,10 @@
-import { BixoWebPage } from './app.po';
+import { Ng4BixoIoPage } from './app.po';
 
-describe('bixo-web App', () => {
-  let page: BixoWebPage;
+describe('ng4-bixo-io App', () => {
+  let page: Ng4BixoIoPage;
 
   beforeEach(() => {
-    page = new BixoWebPage();
+    page = new Ng4BixoIoPage();
   });
 
   it('should display message saying app works', () => {

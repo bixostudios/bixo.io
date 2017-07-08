@@ -1,0 +1,23 @@
+#bixoBranding {
+    width: 275px;
+    height: auto;
+}
+
+#EyeOne {
+    fill: #fff;
+    animation: 1s eye-animate infinite;
+}
+
+#EyeTwo {
+    fill: #fff;
+    animation: 3s eye-animate infinite;
+}
+
+@keyframes eye-animate {
+    0% {
+        fill: #fff;
+    }
+    100% {
+        fill: #00c853;
+    }
+}

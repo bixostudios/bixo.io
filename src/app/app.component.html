@@ -1,7 +1,40 @@
-<app-navigation></app-navigation>
-<app-section-hero></app-section-hero>
+<nav id="back-to-top" class="top-navigation ">
+  <div class="nav-wrapper container">
+    <a href="#" class="brand-logo"><img class="bixo-logo" src="../assets/bixo-logo.png"></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></li>
+      <li routerLinkActive="active"><a routerLink="/about">About</a></li>
+      <li routerLinkActive="active"><a routerLink="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 <router-outlet></router-outlet>
-<app-section-we-are-awesome></app-section-we-are-awesome>
-<app-section-what-we-do></app-section-what-we-do>
-<app-call-to-action-hire></app-call-to-action-hire>
-<app-footer></app-footer>
+<!--- Footer -->
+<footer class="page-footer hide-on-med-and-down">
+  <div class="container">
+    <div class="row">
+      <div class="col s4 center footer-left">
+        <!-- Calendly link widget begin -->
+        <a class="cta-btn" href="https://calendly.com/bixo">Contact Us</a>
+        <!-- Calendly link widget end -->
+      </div>
+      <div class="col s4 center footer-center">
+
+      </div>
+      <div class="col s4 valign-wrapper center footer-right">
+        <ul>
+          <li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2017 | Bixo Studios | <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart red-text" aria-hidden="true"></i>      in San Antonio, Texas
+      <a class="grey-text text-lighten-4 right" href="#back-to-top">Back to Top</a>
+    </div>
+  </div>
+</footer>

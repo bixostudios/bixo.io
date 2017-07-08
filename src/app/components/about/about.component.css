@@ -1,0 +1,170 @@
+.fa {
+    color: #fff;
+}
+
+.dropcap {
+    color: #F95959;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 0px;
+    font-weight: 700;
+}
+
+.spacer-col {
+    height: 100px;
+}
+
+.about-spacer {
+    margin: 10px;
+    width: auto;
+    height: 300px;
+    background-image: url("../../../assets/img/satx.png");
+}
+
+hr,
+.bixo-about-hero {
+    color: #607d8b;
+}
+
+.about-heading,
+.about-our-team-heading,
+.mission-heading {
+    font-weight: 700;
+    color: #546e7a;
+}
+
+.about-heading {
+    font-size: 6.0em;
+}
+
+
+/* Mission Statement Styling */
+
+.bixo-mission-statement {
+    height: 700px;
+}
+
+
+/* About Message Styling */
+
+.about-top-message {
+    font-size: 16px;
+    height: 600px;
+    text-align: justify;
+}
+
+
+/* Google Map Styling */
+
+.bixo-location {
+    width: 500px;
+    height: 500px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* Gradient Words */
+
+.gradient-words-red {
+    color: transparent;
+    background-clip: text;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+}
+
+.gradient-words-red {
+    background-image: -webkit-linear-gradient(left, #F95959, #455D7A);
+    background-image: -moz-linear-gradient(left, #F95959, #455D7A);
+    background-image: -o-linear-gradient(left, #F95959, #455D7A);
+    background-image: linear-gradient(to right, #F95959, #455D7A);
+}
+
+
+/* Profile Styling */
+
+.headshot-container {
+    position: relative;
+    width: 50%;
+}
+
+.member-headshots-tux,
+.member-headshots-emily,
+.member-headshots-elise,
+.member-headshots-nik {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-tux,
+.overlay-elise,
+.overlay-nik,
+.overlay-emily {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlay-emily {
+    background-color: #455D7A;
+}
+
+.overlay-elise {
+    background-color: #F95959
+}
+
+.overlay-nik {
+    background-color: #455D7A
+}
+
+.overlay-tux {
+    background-color: #F95959;
+}
+
+.headshot-container:hover .overlay-tux {
+    bottom: 0;
+    height: 100%;
+}
+
+.headshot-container:hover .overlay-emily {
+    bottom: 0;
+    height: 100%;
+}
+
+.headshot-container:hover .overlay-elise {
+    bottom: 0;
+    height: 100%;
+}
+
+.headshot-container:hover .overlay-nik {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* Experimental */
+
+
