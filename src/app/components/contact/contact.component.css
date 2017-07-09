@@ -1,29 +1,30 @@
 :host {
-  display: block;
+    display: block;
 }
 
 .contact-spacer {
     width: auto;
     height: 300px;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .contact-us-section {
-  margin: 50px;
+    margin: 50px;
 }
 
 .contact-large,
 .us-large {
-  font-size: 3.0em;
-  font-weight: 700;
-  color: #263238;
+    font-size: 3.0em;
+    font-weight: 700;
+    color: #263238;
 }
 
 .contact-message {
-  color: #263238;
+    color: #263238;
 }
+
 .bold-words {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .gradient-words-blue {
@@ -42,11 +43,63 @@
 }
 
 .contact-heading {
-  font-weight: 700;
-  color: #F95959;
+    font-weight: 700;
+    color: #F95959;
 }
 
 .contact-text {
-  color: #263238;
-  font-weight: 700;
+    color: #263238;
+    font-weight: 700;
+}
+
+
+/*//////////////////
+//  Media Queries //
+///////////////////
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-large,
+    .us-large {
+        font-size: 1.0em;
+        font-weight: 700;
+        color: #263238;
+    }
+}
+
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-large,
+    .us-large {
+        font-size: 1.0em;
+        font-weight: 700;
+        color: #263238;
+    }
+}
+
+
+/* iPhone 6 Plus landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .contact-large,
+    .us-large {
+        font-size: 1.0em;
+        font-weight: 700;
+        color: #263238;
+    }
+}
+
+
+/* iPhone 6 Plus portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .contact-large,
+    .us-large {
+        font-size: 1.0em;
+        font-weight: 700;
+        color: #263238;
+    }
 }
