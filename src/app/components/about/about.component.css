@@ -23,7 +23,9 @@
     margin-top: 50px;
 }
 
-hr,
+hr {
+  background-color: #263238;
+}
 .bixo-about-hero {
     color: #263238;
 }
@@ -66,7 +68,6 @@ agm-map {
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
-
 
 
 /* Gradient Words */
@@ -166,4 +167,58 @@ agm-map {
 }
 
 
-/* Experimental */
+/*////////////////
+/ Media Queries /
+/////////////////
+
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-spacer {
+      height: 100px;
+      }
+    .about-heading {
+      font-weight: 700;
+      font-size: 6.0em;
+      }
+}
+
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-heading {
+    font-weight: 700;
+    font-size: 2.0em;
+    }
+}
+
+
+/* iPhone 6 Plus landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .about-heading {
+        font-weight: 700;
+        font-size: 3.0em;
+    }
+}
+
+
+/* iPhone 6 Plus portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+
+/* iPhone 6 and 6 Plus */
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {}
+
+
+/* Apple Watch */
+
+@media (max-device-width: 42mm) and (min-device-width: 38mm) {}

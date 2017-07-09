@@ -158,6 +158,21 @@
         height: auto;
         top: 0px;
     }
+
+    .bixo-hero-our-way {
+    height: 60vh;
+    }
+
+    .bixo-studios-text {
+      display: none;
+    }
+
+    .top-hero-spacer {
+      height: 25px;
+    }
+    .learn-more {
+      display: none;
+    }
 }
 
 
@@ -171,6 +186,24 @@
         height: auto;
         top: 0px;
     }
+    .bixo-hero-our-way {
+    height: 60vh;
+    }
+
+      .bixo-hero-our-way {
+    height: 60vh;
+    }
+
+    .bixo-studios-text {
+      display: none;
+    }
+
+    .top-hero-spacer {
+      height: 25px;
+    }
+    .learn-more {
+      display: none;
+    }
 }
 
 
@@ -182,6 +215,20 @@
     #bixoBranding {
         width: 200px;
         height: auto;
+    }
+     .bixo-hero-our-way {
+    height: 60vh;
+    }
+
+    .bixo-studios-text {
+      display: none;
+    }
+
+    .top-hero-spacer {
+      height: 25px;
+    }
+    .learn-more {
+      display: none;
     }
 }
 
@@ -195,7 +242,24 @@
         width: 200px;
         height: auto;
     }
+     .bixo-hero-our-way {
+    height: 60vh;
+    }
+
+    .bixo-studios-text {
+      display: none;
+    }
+
+    .top-hero-spacer {
+      height: 25px;
+    }
+    .learn-more {
+      display: none;
+    }
 }
+
+/* iPad Landscape */
+
 
 
 
@@ -227,6 +291,8 @@
 
 @media (min-width: 60em) {
     .bixo-studios-text {
-        font-size: 8em;
+        font-size: 5em;
     }
 }
+
+

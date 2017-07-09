@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 import { AgmCoreModule } from '@agm/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -37,6 +38,7 @@ const appRoutes: Routes = [
     FormsModule,
     BrowserAnimationsModule,
     HttpModule,
+    MaterializeModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCyM88L5BTuDUeVVrJrNrse0qLMljmRSis'}),
     RouterModule.forRoot(appRoutes)
