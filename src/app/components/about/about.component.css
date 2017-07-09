@@ -21,7 +21,6 @@
     width: auto;
     height: 300px;
     margin-top: 10px;
-    background-image: url("../../../assets/img/satx.png");
 }
 
 hr,
@@ -38,7 +37,7 @@ hr,
 
 .about-heading {
     font-weight: 700;
-    font-size: 6.0em;
+    font-size: 12.0em;
 }
 
 
@@ -63,13 +62,11 @@ hr,
 agm-map {
     width: auto;
     height: 400px;
-}
-
-agm-marker {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+
 
 
 /* Gradient Words */

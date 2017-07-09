@@ -2,7 +2,7 @@
 <section id="bixo-hero" class="bixo-about-hero">
   <div class="container">
     <div class="row">
-      <div class="about-spacer col s12 valign-wrapper">
+      <div class="about-spacer col s12">
         <h1 class="about-heading"><span class="gradient-words-red">About</span> Us.</h1>
       </div>
     </div>
@@ -80,14 +80,16 @@
         <hr>
         <p><span class="dropcap">D</span>esign / branding + micro-branding / Web App Design & Development / Theme Development
           / And so much more. Bixo Studios is a creative agency that specializes in interactive web solutions and visual
-          communication through digital forms. We don't change the world. We change perceptions. And perceptions form reality.
-          So you could say we're actually changing the world after all. Imagine that!</p>
+          communication through digital forms. We don't change the world. We change perceptions.</p>
       </div>
       <div class="col s12 l8">
         <agm-map
         [latitude]="lat"
         [longitude]="lng"
         [zoom]="zoom"
+        [disableDefaultUI]="true"
+        [zoomControl]="false"
+        [streetViewControl]="false"
         [styles]="mapStyle"
         >
 
