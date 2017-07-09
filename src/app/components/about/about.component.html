@@ -83,8 +83,16 @@
           communication through digital forms. We don't change the world. We change perceptions. And perceptions form reality.
           So you could say we're actually changing the world after all. Imagine that!</p>
       </div>
-      <div class="col s12 l4">
-        <div id="bixo-map" class="bixo-location"></div>
+      <div class="col s12 l8">
+        <agm-map
+        [latitude]="lat"
+        [longitude]="lng"
+        [zoom]="zoom"
+        [styles]="mapStyle"
+        >
+
+          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
       </div>
     </div>
 

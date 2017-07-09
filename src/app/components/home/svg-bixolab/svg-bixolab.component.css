@@ -81,6 +81,16 @@
 }
 
 
+
+@media only screen and (min-device-width: 360px) and (max-device-width:640px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+   #BixoLab {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+
 /* iPhone 6 landscape */
 @media only screen and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -93,3 +103,56 @@
     top: 0px;
   }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #BixoLab {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+   #BixoLab {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+
+/* iPhone 6 Plus landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    #BixoLab {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+
+/* iPhone 6 Plus portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+   #BixoLab {
+    width: 400px;
+    height: 200px;
+    top: 0px;
+  }
+}
+
+
+/* iPhone 6 and 6 Plus */
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {}
+
+
+/* Apple Watch */
+
+@media (max-device-width: 42mm) and (min-device-width: 38mm) {}

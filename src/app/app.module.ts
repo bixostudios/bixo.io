@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -28,12 +30,15 @@ const appRoutes: Routes = [
     SvgBixolabComponent,
     SvgBixolaunchComponent,
     SvgBixodesignComponent,
-    SvgBixobrandingComponent
+    SvgBixobrandingComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    BrowserAnimationsModule,
     HttpModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCyM88L5BTuDUeVVrJrNrse0qLMljmRSis'}),
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

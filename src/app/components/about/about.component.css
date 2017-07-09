@@ -1,5 +1,5 @@
-.fa {
-    color: #fff;
+:host {
+    display: block;
 }
 
 .dropcap {
@@ -18,9 +18,9 @@
 }
 
 .about-spacer {
-    margin: 10px;
     width: auto;
     height: 300px;
+    margin-top: 10px;
     background-image: url("../../../assets/img/satx.png");
 }
 
@@ -37,6 +37,7 @@ hr,
 }
 
 .about-heading {
+    font-weight: 700;
     font-size: 6.0em;
 }
 
@@ -59,9 +60,12 @@ hr,
 
 /* Google Map Styling */
 
-.bixo-location {
-    width: 500px;
-    height: 500px;
+agm-map {
+    width: auto;
+    height: 400px;
+}
+
+agm-marker {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -166,5 +170,3 @@ hr,
 
 
 /* Experimental */
-
-

@@ -2,6 +2,13 @@
 /*//////////////////
 //  HERO STYLING //
 /////////////////*/
+:host {
+  display: block;
+}
+
+.top-hero-spacer {
+  height: 100px;
+}
 
 .bixo-hero-our-way {
     background-color: #455D7A;
@@ -16,7 +23,6 @@
 .text-animate:hover {
     background-color: #F95959;
 }
-
 
 
 .learn-more {
@@ -98,9 +104,21 @@
     margin-left: 0.3em;
 }
 
-/*////////////////////
-// END HERO STYLING //
-////////////////////*/
+/* END HERO STYLING */
+
+.bixo-heading {
+    font-weight: 700;
+    color: #F95959;
+}
+
+/*//////////////////////
+// WHO WE ARE STYLING //
+//////////////////////*/
+
+.who-we-are-message {
+  color: #455D7A;
+}
+
 
 /*//////////////////////
 // WHAT WE DO STYLING //
@@ -117,7 +135,7 @@
 }
 
 .card-title {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     color: #455D7A;
 }
@@ -180,16 +198,9 @@
 }
 
 
-/*////////////////////
-// END  WHAT WE DO  //
-////////////////////*/
-
-
-
-
 
 /*////////////////////
-// MEDIA QUERIES //
+// MEDIA QUERIES    //
 ////////////////////*/
 
 @media (min-width: 20em) {
