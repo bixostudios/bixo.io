@@ -1,9 +1,15 @@
 <!--Hero Section -->
 <section id="bixo-hero" class="bixo-about-hero">
   <div class="container">
-    <div class="row">
-      <div class="about-spacer col s12">
+    <div class="row about-spacer">
+      <div class="col s9">
         <h1 class="about-heading"><span class="gradient-words-red">About</span> Us.</h1>
+      </div>
+      <div class="col l3">
+        <h5 class="about-our-team-heading">What we are about</h5>
+        <p><span class="dropcap">D</span>esign / branding + micro-branding / Web App Design & Development / Theme Development
+          / And so much more. Bixo Studios is a creative agency that specializes in interactive web solutions and visual
+          communication through digital forms. We don't change the world. We change perceptions.</p>
       </div>
     </div>
     <div class="row">
@@ -78,20 +84,12 @@
         </h4>
         <span>Based in the U.S.A.</span>
         <hr>
-        <p><span class="dropcap">D</span>esign / branding + micro-branding / Web App Design & Development / Theme Development
-          / And so much more. Bixo Studios is a creative agency that specializes in interactive web solutions and visual
-          communication through digital forms. We don't change the world. We change perceptions.</p>
+        <p><span class="dropcap">We</span> work in your time-zone. Our team is working while you're working, so no more communication bottlenecks or waiting for the team to wake up. We are located in the central U.S., that means our time will overlap nicely with the West and East Coast. But our commitment to on-time delivery, doesn't mean we wont take clients outside the U.S., so please feel free to message us, no matter where you are.</p>
+
       </div>
       <div class="col s12 l8">
-        <agm-map
-        [latitude]="lat"
-        [longitude]="lng"
-        [zoom]="zoom"
-        [disableDefaultUI]="true"
-        [zoomControl]="false"
-        [streetViewControl]="false"
-        [styles]="mapStyle"
-        >
+        <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [disableDefaultUI]="true" [zoomControl]="false" [streetViewControl]="false"
+          [styles]="mapStyle">
 
           <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
         </agm-map>

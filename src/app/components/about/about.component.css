@@ -20,19 +20,19 @@
 .about-spacer {
     width: auto;
     height: 300px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 hr,
 .bixo-about-hero {
-    color: #607d8b;
+    color: #263238;
 }
 
 .about-heading,
 .about-our-team-heading,
 .mission-heading {
     font-weight: 700;
-    color: #546e7a;
+    color: #263238;
 }
 
 .about-heading {
