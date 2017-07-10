@@ -127,6 +127,7 @@
 }
 
 .service-box {
+    height: 400px;
     background-color: #455D7A;
     color: #fff;
 }
@@ -150,7 +151,9 @@
 /* iPhone 6 landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    #BixoLaunch {
+    #BixoLaunch,
+    #designDev,
+    #bixoBrandingh {
         width: 200px;
         height: auto;
         top: 0px;
@@ -178,7 +181,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     #BixoLaunch,
     #designDev,
-    #bixoBranding {
+    #bixoBrandingh {
         width: 200px;
         height: auto;
         top: 0px;
@@ -209,9 +212,10 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     #BixoLaunch,
     #designDev,
-    #bixoBranding {
+    #bixoBrandingh {
         width: 200px;
         height: auto;
+        top: 0px;
     }
      .bixo-hero-our-way {
     height: 60vh;
@@ -238,6 +242,7 @@
     #bixoBrandingh {
         width: 200px;
         height: auto;
+        top: 0px;
     }
      .bixo-hero-our-way {
     height: 60vh;

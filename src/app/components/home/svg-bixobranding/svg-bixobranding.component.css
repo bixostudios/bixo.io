@@ -21,25 +21,3 @@
         fill: #00c853;
     }
 }
-
-
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
-    #BixoLaunch,
-    #designDev,
-    #bixoBrandingh {
-        width: 200px;
-        height: auto;
-    }
-}
-
-/* iPhone 6 Plus portrait */
-
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
-    #BixoLaunch,
-    #designDev,
-    #bixoBrandingh {
-        width: 200px;
-        height: auto;
-    }
-  
-}
