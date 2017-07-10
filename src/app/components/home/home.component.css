@@ -7,7 +7,7 @@
 }
 
 .top-hero-spacer {
-  height: 100px;
+  height: 25px;
 }
 
 .bixo-hero-our-way {
@@ -16,9 +16,6 @@
     height: 100vh;
 }
 
-.bixo-hero-message {
-  position: relative;
-}
 
 .text-animate:hover {
     background-color: #F95959;
@@ -27,7 +24,7 @@
 
 .learn-more {
     position: relative;
-    top: 2.0rem;
+    top: 1.0rem;
 }
 
 
@@ -135,7 +132,7 @@
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     color: #455D7A;
 }
@@ -289,13 +286,13 @@
 
 @media (min-width: 30em) {
     .bixo-studios-text {
-        font-size: 3em;
+        font-size: 5em;
     }
 }
 
 @media (min-width: 40em) {
     .bixo-studios-text {
-        font-size: 5em;
+        font-size: 7em;
     }
 }
 
