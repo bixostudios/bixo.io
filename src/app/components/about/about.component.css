@@ -37,9 +37,9 @@ hr {
     color: #263238;
 }
 
-.about-heading {
+.about-large {
     font-weight: 700;
-    font-size: 12.0em;
+    font-size: 3.0em;
 }
 
 
@@ -174,40 +174,61 @@ agm-map {
 
 /* iPhone 6 landscape */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width:667)  {
     .about-spacer {
       height: 100px;
       }
-    .about-heading {
-      font-weight: 700;
-      font-size: 6.0em;
+
+    .about-large {
+      font-size: 1.0em !important;
       }
 }
 
 
 /* iPhone 6 portrait */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    .about-heading {
-    font-weight: 700;
-    font-size: 2.0em;
-    }
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+   .about-spacer {
+      height: 100px;
+      }
+
+    .about-large {
+      font-size: 1.0em;}
+
+
 }
 
 
 /* iPhone 6 Plus landscape */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
-    .about-heading {
-        font-weight: 700;
-        font-size: 3.0em;
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+   .about-spacer {
+      height: 100px;
+      }
+
+    .about-large {
+      font-size: 1.0em;
     }
+
 }
 
 
 /* iPhone 6 Plus portrait */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 3) {
 
 }
 

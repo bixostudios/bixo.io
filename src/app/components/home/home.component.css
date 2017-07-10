@@ -259,7 +259,17 @@
 }
 
 /* iPad Landscape */
-
+@media (width: 1024px) {
+    .learn-more {
+      display: none;
+    }
+    .top-hero-spacer {
+      height: 25px;
+    }
+    .bixo-studio-text {
+      font-size: 6.0em;
+    }
+}
 
 
 
@@ -289,10 +299,11 @@
     }
 }
 
-@media (min-width: 60em) {
+/*@media (min-width: 60em) {
     .bixo-studios-text {
-        font-size: 5em;
+        font-size: 8em;
     }
-}
+}*/
+
 
 
