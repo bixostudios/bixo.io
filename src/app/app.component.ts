@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
   animations: []
 })
 export class AppComponent {
+
 }
