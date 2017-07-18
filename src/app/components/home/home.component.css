@@ -106,6 +106,7 @@
 
 .gradient-words-blue {
     color: transparent;
+    font-weight: bold;
     background-clip: text;
     position: relative;
     -webkit-font-smoothing: antialiased;

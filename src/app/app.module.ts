@@ -16,6 +16,7 @@ import { SvgBixolaunchComponent } from './components/home/svg-bixolaunch/svg-bix
 import { SvgBixodesignComponent } from './components/home/svg-bixodesign/svg-bixodesign.component';
 import { SvgBixobrandingComponent } from './components/home/svg-bixobranding/svg-bixobranding.component';
 
+
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'about', component: AboutComponent },
